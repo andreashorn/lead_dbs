@@ -1,6 +1,14 @@
 function ea_magetcheck_norm_peers(options,peerfolders)
-% function that checks maget peers for normalization with an ANTs function
+% Function that checks maget peers for normalization with an ANTs function
 % and does normalize them if not done before.
+%
+% USAGE:
+%
+%    ea_magetcheck_norm_peers(options,peerfolders)
+%
+% INPUTS:
+%    options:
+%    peerfolder:
 
 for peer=1:length(peerfolders)
     poptions=options;
